@@ -1,11 +1,9 @@
-#include <stdio.h>
-#include <locale.h>	
+#include <stdio.h>	
 int main(void)
 {
-	setlocale(LC_ALL, "Rus");
-	printf("1. В языке С все символы нижнего регистра значимы\n");
-	printf("2. Слово main указывает на начало выполнения программы\n");
-	printf("3. Открывающая и закрывающая фигурные скобки содержат утверждения программы\n");
-	printf("4. Все утверждения программы должны заканчиваться точкой с запятой\n");
+	printf("1. In C language, all lowercase characters are significant\n");
+	printf("2. The word main indicates the beginning of the program execution\n");
+	printf("3. The opening and closing curly brackets contain the approval of the program\n");
+	printf("4. All statements of a program must end with a semicolon\n");
 	return 0;
 }
